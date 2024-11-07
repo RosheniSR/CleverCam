@@ -1,0 +1,16 @@
+crowd_detection:
+  model_path: "C:\\Users\\roshe\\Documents\\PROJECTS\\CleverCam (IP)\\CleverCam-main\\CleverCam\\crowd_detection\\models\\yolov8n.pt"
+  threshold: 15  # Number of people to detect as crowd
+  video_path: "C:\\Users\\roshe\\Documents\\PROJECTS\\CleverCam (IP)\\CleverCam-main\\CleverCam\\crowd_detection\\crowd_clip.mp4"
+
+weapon_detection:
+  model_path: "C:\\Users\\roshe\\Documents\\PROJECTS\\CleverCam (IP)\\CleverCam-main\\CleverCam\\weapon_detection\\models\\best.pt"
+  image_path: "C:\\Users\\roshe\\Documents\\PROJECTS\\CleverCam (IP)\\CleverCam-main\\CleverCam\\weapon_detection\\weapon_img.jpg"
+
+alert_system:
+  account_sid: "AC9f9f61a257265228a1869fa45847983c"           
+  auth_token: "AC9f9f61a257265228a1869fa45847983c:130e4bf9c8407d13d23d49526aab31f5"            
+  twilio_number: "+14155238886"      
+  receiver_whatsapp_number: "+918754603174"     
+
+video_source: 0  # Webcam source, use 0 for default webcam or video file path
